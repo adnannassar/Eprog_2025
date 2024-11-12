@@ -1,7 +1,6 @@
 package Datentypen;
 
 public class Datentypen {
-
     // ganze zahlen
     byte x = 10; // 1 byte -->  -128 to 127
     short y = 100; // 2 byte --> -32768 to 32767
