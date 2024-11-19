@@ -13,7 +13,7 @@ public class Do_While_Loop {
             System.out.print(x + " ");
             x++;
         }
-
+       
         System.out.println("\nDo While: ");
         int y = 20;
         do {
