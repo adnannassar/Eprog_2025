@@ -11,14 +11,7 @@ public class Main {
         // {0, 0, 0, 0, 0}
         //}
 
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array[i].length; j++) {
-                array[i][j] = i +j;
-            }
-        }
-
-
-        System.out.println("Erstes Wiederholung.Array");
+        System.out.println("Erstes Array");
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 System.out.print(array[i][j] + " ");
@@ -33,14 +26,13 @@ public class Main {
                 {9, 8, 10, 11},
         };
 
-        System.out.println("Zweites Wiederholung.Array");
+        System.out.println("Zweites Array");
         for (int i = 0; i < array2.length; i++) {
             for (int j = 0; j < array2[i].length; j++) {
                 System.out.print(array2[i][j] + " ");
             }
             System.out.println();
         }
-
 
 
     }

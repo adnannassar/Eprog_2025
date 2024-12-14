@@ -6,8 +6,6 @@ public class ExtractingArray {
         System.out.println("Array mit werte die durch 3 teilbar sind:");
         int[] result = extractArray(array, 3);
         printArray(result);
-
-
     }
 
     private static int[] extractArray(int[] array, int n) {
@@ -20,7 +18,7 @@ public class ExtractingArray {
 
         int[] result = new int[countDurchNTeilbar];
 
-        for (int i = 0, j = 0 ; i < array.length; i++) {
+        for (int i = 0, j = 0; i < array.length; i++) {
             if (array[i] % n == 0) {
                 result[j] = array[i];
                 j++;
