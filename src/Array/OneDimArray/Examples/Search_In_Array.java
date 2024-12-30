@@ -28,6 +28,7 @@ public class Search_In_Array {
         return false;
     }
 
+
     public static void fillArrayRandomly(int[] array) {
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
