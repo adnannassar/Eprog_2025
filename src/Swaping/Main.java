@@ -5,7 +5,6 @@ public class Main {
         int x = 10;
         int y = 20;
         System.out.println("Before swapping: x = " + x + ", y = " + y);
-
         int temp = x;
         x = y;
         y = temp;
