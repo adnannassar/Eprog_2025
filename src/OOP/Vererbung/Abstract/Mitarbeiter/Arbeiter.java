@@ -1,4 +1,4 @@
-package OOP.Vererbung.Abstract;
+package OOP.Vererbung.Abstract.Mitarbeiter;
 
 public class Arbeiter extends Mitarbeiter {
     private double stundenLohn;
@@ -17,6 +17,7 @@ public class Arbeiter extends Mitarbeiter {
         this.anzahlUebestunden = anzahlUebestunden;
     }
 
+    @Override
     public double berechneGehalt() {
         return (stundenLohn * anzahlStunden) + (uebestundenZuschlag * anzahlUebestunden);
     }

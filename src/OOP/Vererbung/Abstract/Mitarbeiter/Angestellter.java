@@ -1,4 +1,4 @@
-package OOP.Vererbung.Abstract;
+package OOP.Vererbung.Abstract.Mitarbeiter;
 
 public class Angestellter extends Mitarbeiter {
     private double grundgehalt;
@@ -12,6 +12,7 @@ public class Angestellter extends Mitarbeiter {
         this.zulage = zulage;
     }
 
+    @Override
     public double berechneGehalt(){
         return grundgehalt + ortszuschlag + zulage;
     }

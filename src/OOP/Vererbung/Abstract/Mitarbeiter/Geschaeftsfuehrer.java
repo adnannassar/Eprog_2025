@@ -1,4 +1,4 @@
-package OOP.Vererbung.Abstract;
+package OOP.Vererbung.Abstract.Mitarbeiter;
 
 public class Geschaeftsfuehrer extends Manager{
     private double zulage;
@@ -7,6 +7,7 @@ public class Geschaeftsfuehrer extends Manager{
         this.zulage = zulage;
     }
 
+    @Override
     public double berechneGehalt() {
         return super.berechneGehalt() + zulage;
     }

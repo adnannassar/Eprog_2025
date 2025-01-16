@@ -1,4 +1,4 @@
-package OOP.Vererbung.Abstract;
+package OOP.Vererbung.Abstract.Mitarbeiter;
 
 public class Manager extends Mitarbeiter {
     private double festgehalt;
@@ -15,6 +15,7 @@ public class Manager extends Mitarbeiter {
         this.umsatz = umsatz;
     }
 
+    @Override
     public double berechneGehalt() {
         return festgehalt + provision + umsatz;
     }

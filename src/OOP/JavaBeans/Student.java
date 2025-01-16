@@ -1,6 +1,6 @@
 package OOP.JavaBeans;
 
-public class Student {
+public class Student{
     // Attributes
     public String name;
     private int age;
@@ -48,5 +48,11 @@ public class Student {
         System.out.println("Age: " + age);
         System.out.println("Gender: " + gender);
         System.out.println("Note: " + note);
+    }
+
+
+    @Override
+    public String toString() {
+       return "Name: " + name + ", Age: " + age;
     }
 }
