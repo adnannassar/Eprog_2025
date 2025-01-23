@@ -12,8 +12,10 @@ public class Angestellter extends Mitarbeiter {
         this.zulage = zulage;
     }
 
+
     @Override
     public double berechneGehalt(){
         return grundgehalt + ortszuschlag + zulage;
     }
+
 }
